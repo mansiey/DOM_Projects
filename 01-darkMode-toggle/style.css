@@ -28,6 +28,8 @@ button {
     background: #222;
     color: aliceblue;
     transition: 0.3s;
+    /* box-shadow: 5px 5px 15px black; */
+    filter: drop-shadow( 3px 3px 8px black);
 }
 
 button:hover {
@@ -42,4 +44,5 @@ button:hover {
 .dark button {
     background-color: aliceblue;
     color: black;
+    filter: drop-shadow( 2px 2px 6px aliceblue);
 }
