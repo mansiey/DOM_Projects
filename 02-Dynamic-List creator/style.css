@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body {
+    height: 100vh;
+    background-color: aliceblue;
+    color: black;
+    transition: 0.3s;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.top h1 {
+    margin: 0;
+}
+.top {
+    text-align: center;
+    margin: 15px;
+}
+
+
+#item {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: text;
+    font-family: "Martel Sans", sans-serif;
+}
+
+#addBtn {
+    padding:10px 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 1ms;
+    font-family: "Martel Sans", sans-serif;
+}
+
+#addBtn:hover {
+    transform: scale(1.03);
+}
+
+
+.list-container {
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    min-height: 60vh;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#list {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    /* border: 1px solid black;
+    border-radius: 8px; */
+}
+
+/* .list-child {
+    
+
+} */
+.delete {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    background: rgb(244, 108, 108);
+    font-family: "Martel Sans", sans-serif;
+    
+}
+
+#list div {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px 16px;
+
+}
