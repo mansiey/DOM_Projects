@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body {
+    margin: auto;
+    padding: auto;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 800;
+    background-color: black;
+    color: aliceblue;
+}
+
+.container {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 800;
+}
+
+.container h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin: auto;
+    padding: 10px 15px; 
+    border: 1px solid aliceblue;
+    border-radius: 12px;
+    font-size: 28px;
+    background-color: rgb(36, 35, 35);
+}
+
+.controls select {
+    border-radius: 8px;
+    padding: 4px 12px;
+    cursor: pointer;
+}
+
+#GenerateBtn {
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 4px 12px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#GenerateBtn:hover {
+    transform: scale(1.05);
+}

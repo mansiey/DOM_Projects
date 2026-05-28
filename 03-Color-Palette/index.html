@@ -3,11 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Color-Palette </title>
+    <title> Color-Palette Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1> Generate Color of Your Choice</h1>
+
+        <div class="controls">
+            <select id="format">
+                <option value="hex"> HEX </option>
+                <option value="rgb"> RGB </option>
+            </select>
+            
+            
+            <select name="Tone" id="Tone">
+                <option value="all"> All Color </option>
+                <option value="light"> Light </option>
+                <option value="dark"> Dark </option>
+            </select>
+
+            <button id="GenerateBtn"> Generate </button>
+        </div>
+
+        <div id="palette" class="palette">
+
+        </div>
+    </div>
 
 
     <script src="script.js"></script>
