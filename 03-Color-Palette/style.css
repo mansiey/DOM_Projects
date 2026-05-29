@@ -2,7 +2,8 @@
 
 
 body {
-    margin: auto;
+    margin: 0;
+    height: 100vh;
     padding: auto;
     font-family: "Martel Sans", sans-serif;
     font-weight: 800;
@@ -23,25 +24,25 @@ body {
 .controls {
     display: flex;
     justify-content: space-around;
-    width: 30%;
+    width: 45%;
     margin: auto;
-    padding: 10px 15px; 
+    padding: 10px 15px;
     border: 1px solid aliceblue;
     border-radius: 12px;
     font-size: 28px;
-    background-color: rgb(36, 35, 35);
+    background-color: rgb(28, 27, 27);
 }
 
 .controls select {
-    border-radius: 8px;
-    padding: 4px 12px;
+    border-radius: 10px;
+    padding: 6px 14px;
     cursor: pointer;
 }
 
-#GenerateBtn {
-    border: 1px solid gray;
-    border-radius: 8px;
-    padding: 4px 12px;
+#generateBtn {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 6px 14px;
     transition: 0.3s;
     cursor: pointer;
 }
