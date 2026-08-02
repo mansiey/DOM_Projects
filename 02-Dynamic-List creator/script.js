@@ -11,9 +11,7 @@ addBtn.addEventListener('click', () => {
 
     const li = document.createElement("li")
     li.innerText = input.value;
-    // li.classList.add("list");
-    // list.appendChild(li);
-
+    
     input.value = "";
 
     const delBtn = document.createElement("button");
@@ -29,6 +27,17 @@ addBtn.addEventListener('click', () => {
 
     delBtn.addEventListener('click', () => {
         wrapper.remove();
+    })
+
+    li.addEventListener('dblclick', () => {
+        const editInput = document.createElement('input');
+
+        //the ediatble part should already contain the input we've given
+        editInput.innerText = li.value;
+
+        //replace the input
+        li.replaceWith(editInput);
+        editInput.focus();
     })
 
 })
